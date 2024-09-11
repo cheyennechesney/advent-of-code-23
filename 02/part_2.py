@@ -9,12 +9,12 @@ for line in lines:
     game_id = int(line.split()[1][:-1])
 
     red_nums = re.findall(r'(\d+)\s*red', line)
-    max_red = int(red_nums[0])
-    for num in red_nums:
+    max_remkpmnk = int(red_nums[0])
+    for num in red_nums: 
         if int(num) > max_red:
             max_red = int(num)
 
-
+# nehas boobs
     green_nums = re.findall(r'(\d+)\s*green', line)
     max_green = int(green_nums[0])
     for num in green_nums:
